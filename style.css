@@ -30,6 +30,11 @@ body{
     text-align: center;
 }
 
+.video-container {
+    text-align: right;
+    margin-right: 369px;
+}
+
 #image{
     width: 100%;
     height: auto;
