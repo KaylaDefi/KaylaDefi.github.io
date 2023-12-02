@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(22, 43, 22);
+    background-color: rgb(2, 88, 104);
     color:rgb(207, 95, 192);
     font-family: :'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size:16px;
@@ -8,16 +8,29 @@ body{
 }
 
 .container{
-     width:80%;
+    width:80%;
     margin:auto;
     overflow:auto;
     display: grid; /* This enables Grid Layout */
-    grid-template-columns: auto auto auto; /* Creates three columns: two flexible and one that fits the content */
+    grid-template-columns: auto auto auto; 
     gap: 10px;
     align-items: start;
 }
 
-#image {
+.block{
+    float: left;
+    width: 33.3%;
+    border:1px solid #cccccc;
+    padding:10px;
+    box-sizing:border-box; 
+    //takes in padding and border and applies into the width
+}
+
+.centered-text{
+    text-align: center;
+}
+
+#image{
     width: 100%;
     height: auto;
 }
@@ -28,8 +41,8 @@ body{
 }
 
 #showcase{
-    background-image:url('../MIT/showcase.jpg');
-    background-position: center right;
+    background-image:url('../KaylaDefi/showcase.jpg');
+    background-position: bottom;
     height:300px;
     margin-bottom:30px;
     text-align: center;
@@ -42,14 +55,12 @@ body{
     padding-top:30px;
 }
 
-#main{
-    
+#main{ 
     padding:0 30px;
     box-sizing: border-box;
 }
 
 #sidebar{
-
     background: #333;
     color:#fff;
     padding:10px;
