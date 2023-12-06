@@ -1,4 +1,4 @@
-.container2{
+.container2 {
     width: 100%;
     height: 100vh;
     background: #005160;
@@ -7,7 +7,7 @@
     justify-content: center;
 }
 
-form{
+form {
     background: coral;
     display: flex;
     flex-direction: column;
@@ -17,14 +17,14 @@ form{
     border-radius: 10px;
 }
 
-form h3{
+form h3 {
     font-weight: 800;
     margin-bottom: 20px;
     text-align: center;
     color:#fff;
 }
 
-form input, form textarea{
+form input, form textarea {
     border: 0;
     margin: 3px 0;
     padding: 13px;
@@ -34,7 +34,7 @@ form input, form textarea{
 }
 
 
-form button{
+form button {
     padding: 15px;
     background: #6e1855;
     color: yellowgreen;
@@ -45,4 +45,26 @@ form button{
     width: 113px;
     margin: 20px auto 0;
     border-radius: 30px;
+}
+
+.button-container {
+    display: grid;
+    place-items: center; /* Center both horizontally and vertically */
+}
+
+.linkedin-button {
+    display: inline-block;
+    background-color: #0ac24a; 
+    color: rgb(130, 17, 107); 
+    padding: 10px 20px; 
+    text-decoration: none; 
+    text-align: center;
+    width: 100%;
+    border-radius: 5px; 
+    font-weight: bold; 
+    transition: background-color 0.3s; 
+}
+
+.linkedin-button:hover {
+    background-color: #86086d; 
 }
