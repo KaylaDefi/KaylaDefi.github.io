@@ -1,29 +1,30 @@
-body{
+body {
     background-color: rgb(2, 88, 104);
+    background-image: url(IMG_5518.jpg);
+    background-repeat: no-repeat;
     color:rgb(207, 95, 192);
     font-family: :'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size:16px;
-    line-height:1.6em;
-    margin:0;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0;
 }
 
-.container{
+
+.container {
     width:80%;
     margin:auto;
     overflow:auto;
     display: grid; /* This enables Grid Layout */
     grid-template-columns: auto auto auto; 
-    gap: 10px;
+    gap: 33px;
     align-items: start;
+    padding: 33px;
 }
 
-.block{
-    float: left;
-    width: 33.3%;
-    border:1px solid #cccccc;
-    padding:10px;
-    box-sizing:border-box; 
-    //takes in padding and border and applies into the width
+.block {
+    border: 1px solid #cccccc;
+    box-sizing: border-box;
+    padding: 10px;
 }
 
 .centered-text{
@@ -32,47 +33,56 @@ body{
 
 .video-container {
     text-align: right;
-    margin-right: 40px;
+    margin-right: 113px;
 }
 
-#image{
+.profile-pic-container {
+    width: 369px; /* Or the width you desire */
+    height: 369px; /* Or the height you desire, for a circle it should be equal to width */
+    border-radius: 50%; /* This will make it round */
+    background-image: url('IMG_1345.JPG'); /* Path to your image */
+    background-size: cover; /* This will cover the entire area of the container */
+    background-position: top; /* Adjust this value to focus on the part you want to show */
+    background-repeat: no-repeat;
+    object-fit: cover; /* This will prevent distortion */
+    overflow: hidden; /* This hides any overflow due to resizing */
+}
+
+
+
+#image {
     width: 100%;
     height: auto;
 }
 
-#main-header{
+#main-header {
     background-color:coral;
     color:#fff;
 }
 
-#showcase{
-    background-image:url('../KaylaDefi.github.io/showcase.jpg');
-    background-position: bottom;
-    height:300px;
-    margin-bottom:30px;
-    text-align: center;
-}
 
-#showcase-h1{
+
+#showcase-h1 {
     color: rgb(13, 13, 154)
     font-size:50px;
     line-height: 2.6em;
     padding-top:30px;
 }
 
-#main{ 
+#main { 
     padding:0 30px;
     box-sizing: border-box;
+    background-color: lightpink;
 }
 
-#sidebar{
+#sidebar {
     background: #333;
     color: #fff;
     padding:10px;
     box-sizing: border-box;
 }
 
-#main-footer{
+#main-footer {
     background: coral;
     color: #fff;
     text-align: center;
