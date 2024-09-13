@@ -7,14 +7,12 @@
 	    <link rel="stylesheet" type="text/css" href="./style.css">
     </head>
     <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+        <!-- Navbar -->
         <nav class="navbar navbar-expand-lg navbar-light bg-info"> 
             <div class="container-fluid">
               <a class="navbar-brand" href="#">
                 <img src="IMG_8994.jpg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
-				        Kayla Defi</a>
+				Kayla Defi</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -30,65 +28,53 @@
                     <a class="nav-link active" href="contact.html" tabindex="-1" aria-disabled="true">Contact</a>
                   </li>
                 </ul>
-                <form class="d-flex">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
               </div>
             </div>
           </nav>
-        <h1 class="centered-text">JavaScript Projects</h1>
+          
+        <!-- Project Cards Section -->
+        <div class="container">
+          <div class="row">
+            <!-- Card 1 -->
+            <div class="col-md-4">
+              <div class="card project-card">
+                <img src="pacmen.png" class="card-img-top" alt="PacMen Project">
+                <div class="card-body">
+                  <h5 class="card-title">PacMen Exercise</h5>
+                  <p class="card-text">This project creates and animates Pac-Man characters with random velocities and boundary collisions.</p>
+                  <a href="https://kayladefi.github.io/Pacman-Exercise/" class="btn btn-primary mb-2">View Live Preview</a>
+                  <a href="https://github.com/KaylaDefi/Pacman-Exercise" class="btn btn-primary">View on GitHub</a>
+                </div>
+              </div>
+            </div>
 
-        <div class="block">
-            <h3><a href="https://github.com/KaylaDefi/Pacman-Exercise" class="link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">PacMen Exercise</a></h3>
-            <p>
-              This code is for a web-based game or simulation 
-              that creates and animates Pac-Man characters. 
-              When a new Pac-Man is made using makePac(), 
-              it is given a random position and velocity, 
-              and an image element is created and placed in 
-              the game area. The update() function moves
-              each Pac-Man based on its velocity and checks 
-              for collisions with the window boundaries, 
-              reversing direction and cycling through images
-              to simulate movement. The startGame() function
-              sets this update process to repeat at intervals,
-              creating the animation loop. Event listeners 
-              are added to DOM elements to create new 
-              Pac-Men and start the game 
-              when the user interacts with the page.</p>
+            <!-- Card 2 -->
+            <div class="col-md-4">
+              <div class="card project-card">
+                <img src="eyes.png" class="card-img-top" alt="Eye Movement Project">
+                <div class="card-body">
+                  <h5 class="card-title">Eye Movement Exercise</h5>
+                  <p class="card-text">This project creates an eye-following effect where elements track the user's mouse movement.</p>
+                  <a href="https://kayladefi.github.io/Eye-Movement-Activity/" class="btn btn-primary mb-2">View Live Preview</a>
+                  <a href="https://github.com/KaylaDefi/Eye-Movement-Activity" class="btn btn-primary">View on GitHub</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-md-4">
+              <div class="card project-card">
+                <img src="bus-tracker-image.jpg" class="card-img-top" alt="Bus Tracker Project">
+                <div class="card-body">
+                  <h5 class="card-title">Real Time Bus Tracker</h5>
+                  <p class="card-text">This project tracks real-time bus locations using Google Maps and the MBTA API.</p>
+                  <a href="https://github.com/KaylaDefi/MBTA-Bus-Tracker" class="btn btn-primary">View on GitHub</a>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="block">
-            <h3><a href="https://github.com/KaylaDefi/Eye-Movement-Activity" class="link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Eye Exercise</a></h3>
-            <p>This code snippet creates an eye-following 
-              effect where two elements with the class 'ball' 
-              will track the movement of the user's mouse 
-              cursor on the screen. As the mouse moves, it 
-              updates the position of each 'ball' to match
-              the cursor's position in percentage terms 
-              relative to the window's width and height, 
-              creating the illusion that the 'balls' are 
-              looking at the cursor.</p>
-          </div>
-          <div class="block">
-            <h3><a href="https://github.com/KaylaDefi/MBTA-Bus-Tracker" class="link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Real Time Bus Tracker</a></h3>
-            <p>This code initializes and manages a customized 
-              Google Maps instance, primarily to track and 
-              display bus locations. The map is styled with
-              a custom color scheme and centered at specific 
-              coordinates. The addMarkers() function, called 
-              at regular intervals, fetches real-time bus 
-              location data from the MBTA API and updates
-              or adds markers on the map to represent the 
-              buses. These markers, distinguished by different 
-              colors based on the bus direction, move to reflect
-              the buses' current positions. The map and marker 
-              functionalities are initialized when the window loads.</p>
-          </div>
-        
-        
-        <script src="" async defer></script>
-        
+        </div>
+
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     </body>
 </html>
