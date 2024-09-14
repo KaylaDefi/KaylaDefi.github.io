@@ -131,21 +131,22 @@ body {
     }
 }
 
-/* CSS for mobile view */
-@media only screen and (max-width: 768px) {
-    .navbar-collapse {
-      display: block !important; 
-    }
+.navbar-toggler {
+    background-color: #f8f9fa; 
+    border-color: #f8f9fa;     
+    color: #000;               
+  }
   
-    .navbar-toggler {
-      display: none; 
-    }
+ 
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(0,0,0,0.8)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
   
-    .navbar-nav {
-      display: flex;
-      flex-direction: column;
-    }
-  }  
+.navbar-toggler:hover {
+    background-color: #e2e6ea; 
+    border-color: #e2e6ea;
+}
+  
 
 .project-card {
     font-family: 'Lora', serif;
