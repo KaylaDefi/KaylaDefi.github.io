@@ -134,15 +134,11 @@ body {
 /* CSS for mobile view */
 @media only screen and (max-width: 768px) {
     .navbar-collapse {
-      display: block !important; /* Always show the navbar menu */
+      display: block !important; 
     }
   
     .navbar-toggler {
-      display: none; /* Hide the toggle button */
-    }
-  
-    .navbar {
-      background-color: #fff; /* Adjust the background color if it's too dark */
+      display: none; 
     }
   
     .navbar-nav {
