@@ -1,7 +1,7 @@
 body {
     background-color: rgb(2, 88, 104);
     background-image: url(IMG_5518.jpg);
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     color:rgb(180, 35, 160);
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 16px;
@@ -13,7 +13,7 @@ body {
     width:80%;
     margin:auto;
     overflow:auto;
-    display: grid; /* This enables Grid Layout */
+    display: grid; 
     grid-template-columns: auto auto auto; 
     gap: 33px;
     align-items: start;
