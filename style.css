@@ -1,6 +1,6 @@
 body {
     background-color: rgb(2, 88, 104);
-    background-image: url(IMG_5518.jpg);
+    background-image: url(images/IMG_5518.jpg);
     background-repeat: repeat-x;
     color:#3A3D53;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -66,7 +66,7 @@ body {
     width: 369px;
     height: 369px;
     border-radius: 50%; 
-    background-image: url('IMG_1345.JPG');
+    background-image: url('images/IMG_1345.JPG');
     background-size: cover; 
     background-position: top; 
     background-repeat: no-repeat;
@@ -131,6 +131,26 @@ body {
     }
 }
 
+/* CSS for mobile view */
+@media only screen and (max-width: 768px) {
+    .navbar-collapse {
+      display: block !important; /* Always show the navbar menu */
+    }
+  
+    .navbar-toggler {
+      display: none; /* Hide the toggle button */
+    }
+  
+    .navbar {
+      background-color: #fff; /* Adjust the background color if it's too dark */
+    }
+  
+    .navbar-nav {
+      display: flex;
+      flex-direction: column;
+    }
+  }  
+
 .project-card {
     font-family: 'Lora', serif;
     font-size: 16px; 
@@ -146,7 +166,7 @@ body {
 }
 
 .contact-section {
-    background-image: url('IMG_5518.jpg');
+    background-image: url('images/IMG_5518.jpg');
     background-size: repeat-x;
     padding: 50px 0;
     min-height: 100vh;
