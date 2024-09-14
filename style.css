@@ -2,11 +2,12 @@ body {
     background-color: rgb(2, 88, 104);
     background-image: url(IMG_5518.jpg);
     background-repeat: repeat;
-    color:rgb(180, 35, 160);
+    color:#3A3D53;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 16px;
     line-height: 1.6em;
     margin: 0;
+    height: 100%;
 }
 
 .container {
@@ -31,10 +32,29 @@ body {
     color: lightpink; 
   }
 
+.navbar {
+    background-color: #2B2D42;
+}
+
+.navbar-brand {
+    font-family: 'Handjet', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    color: #FFDAB9;
+}
+
+.nav-link {
+    font-family: 'Handjet', sans-serif;
+    font-weight: 300; 
+    font-size: 27px;
+    color: #fff;    
+  }  
+
 .centered-text{
     text-align: center;
-    background-color: coral;
-    color:#fff
+    background-color: #FF7F50;
+    color:#fff;
+    font-family: 'Ribeye Marrow', curvise;
 }
 
 .video-container {
@@ -79,7 +99,9 @@ body {
 #main { 
     padding:20px 30px;
     box-sizing: border-box;
-    background-color: lightpink;
+    background-color: #FAFAFA;
+    font-family: 'Lora', serif;
+    font-size: 18px;
 }
 
 #sidebar {
@@ -90,7 +112,7 @@ body {
 }
 
 #main-footer {
-    background: coral;
+    background: #2B2D42;
     color: #fff;
     text-align: center;
     padding:20px;
@@ -109,73 +131,97 @@ body {
     }
 }
 
-.container2 {
-    width: 100%;
-    height: 100vh;
-    background: #005160;
+.project-card {
+    font-family: 'Lora', serif;
+    font-size: 16px; 
+    color: rgb(180, 35, 160); 
+}
+
+.project-card .card-title {
+    font-weight: 700; 
+}
+
+.project-card .card-text {
+    font-weight: 400; 
+}
+
+.contact-section {
+    background-image: url('IMG_5518.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 50px 0;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-form {
-    background: coral;
+.form-wrapper {
     display: flex;
     flex-direction: column;
-    padding: 2vw 4vw;
-    width: 90%;
+    align-items: center;
+}
+
+form {
+    background: #FAFAFA; 
+    padding: 30px;
     max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
     border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 form h3 {
-    font-weight: 800;
-    margin-bottom: 20px;
+    font-family: 'Lora', serif; 
+    font-size: 28px;
+    color: #3A3D53;
     text-align: center;
-    color:#fff;
+    margin-bottom: 20px;
 }
 
 form input, form textarea {
-    border: 0;
-    margin: 3px 0;
-    padding: 13px;
-    outline: none;
-    background: lightpink;
-    font-size: 15px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-family: 'Lora', serif; 
+    font-size: 16px;
+    background-color: #FFF5F5; 
+    color: #3A3D53; 
 }
-
 
 form button {
-    padding: 15px;
-    background: #6e1855;
-    color: yellowgreen;
-    font-size: 15px;
-    border: 0;
-    outline: none;
+    background-color: #FF7F50; 
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
     cursor: pointer;
-    width: 113px;
-    margin: 20px auto 0;
-    border-radius: 30px;
+    font-size: 16px;
+    width: 100%;
 }
 
-.button-container {
-    display: grid;
-    place-items: center; /* Center both horizontally and vertically */
+form button:hover {
+    background-color: #E67343; 
 }
 
 .linkedin-button {
     display: inline-block;
-    background-color: #0ac24a; 
-    color: rgb(130, 17, 107); 
-    padding: 10px 20px; 
-    text-decoration: none; 
+    background-color: #FF7F50; 
+    color: white;
     text-align: center;
-    width: 100%;
-    border-radius: 5px; 
-    font-weight: bold; 
-    transition: background-color 0.3s; 
+    padding: 13px 27px;
+    margin-bottom: 20px; 
+    width: auto;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: 'Lora', serif;
+    font-size: 24px;
 }
 
 .linkedin-button:hover {
-    background-color: #86086d; 
+    background-color: #E67343; /* Slightly darker coral on hover */
 }
+
