@@ -1,7 +1,7 @@
 body {
     background-color: rgb(2, 88, 104);
     background-image: url(IMG_5518.jpg);
-    background-repeat: repeat;
+    background-repeat: repeat-x;
     color:#3A3D53;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 16px;
@@ -134,7 +134,7 @@ body {
 .project-card {
     font-family: 'Lora', serif;
     font-size: 16px; 
-    color: rgb(180, 35, 160); 
+    color:#3A3D53; 
 }
 
 .project-card .card-title {
@@ -147,8 +147,7 @@ body {
 
 .contact-section {
     background-image: url('IMG_5518.jpg');
-    background-size: cover;
-    background-attachment: fixed;
+    background-size: repeat-x;
     padding: 50px 0;
     min-height: 100vh;
     display: flex;
