@@ -278,6 +278,21 @@ form button:hover {
 }
 
 .linkedin-button:hover {
-    background-color: #E67343; /* Slightly darker coral on hover */
+    background-color: #E67343; 
 }
 
+.disclaimer-text {
+    text-align: center;
+    background-color: #FF7F50;
+    font-size: 15px;
+    font-family: 'Lora', serif;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.disclaimer-text a {
+    color: #3A3D53; 
+    text-decoration: underline;
+}
+.disclaimer-text a:hover {
+    color: #E67343; 
+}
