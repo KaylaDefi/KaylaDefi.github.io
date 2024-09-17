@@ -1,4 +1,4 @@
-body {
+html, body {
     background-color: rgb(2, 88, 104);
     background-image: url(images/IMG_5518.jpg);
     background-size: cover;
@@ -22,7 +22,6 @@ body {
     gap: 33px;
     align-items: start;
     padding: 33px;
-    display: block;
 }
 
 .block {
@@ -137,6 +136,10 @@ body {
     color: #fff;
     text-align: center;
     padding:20px;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width:100%;
     margin-top:40px;
 }
 
