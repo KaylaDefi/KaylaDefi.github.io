@@ -66,18 +66,18 @@ html, body {
 }
 
 .profile-pic-container {
-    width: 337px;
-    height: 337px;
+    width: 369px;
+    height: 369px;
     border-radius: 50%; 
-    background-image: url('images/IMG_1345.JPG');
+    background-image: url('images/IMG_0054.JPG');
     background-size: cover; 
     background-position: top; 
-    background-repeat: no-repeat;
-    object-fit: cover; 
+    background-repeat: no-repeat; 
+    object-fit: cover;
     overflow: hidden; 
     position: absolute;
     top: 200px; 
-    left: 30px; 
+    left: 36px; 
     z-index: 1;
 }
 
