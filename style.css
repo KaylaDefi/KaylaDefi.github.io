@@ -315,6 +315,7 @@ form button:hover {
 
   /* Make content responsive */
 #post-content {
+    font-family: 'Lora', serif;
     padding: 1rem;
     max-width: 100%;
     overflow-wrap: break-word;
@@ -326,8 +327,9 @@ form button:hover {
   #post-content h1, 
   #post-content h2, 
   #post-content h3 {
-    margin-top: 1.5rem;
-    font-weight: bold;
+    word-break: normal;
+    overflow-wrap: break-word;
+    line-height: 1.3;
   }
   
   #post-content ul, 
@@ -357,9 +359,9 @@ form button:hover {
   }
   
   @media (max-width: 768px) {
-    #post-content {
-      font-size: 1rem;
-      padding: 1rem 0.75rem;
+    #post-content h1 {
+      font-size: 1.5rem;
+      text-align: left;
     }
   
     #main-header h1 {
