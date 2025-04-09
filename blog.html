@@ -67,7 +67,8 @@
   </footer>
 
   <script>
-    function loadPost(path) {
+
+function loadPost(path) {
   fetch(path)
     .then(res => res.text())
     .then(md => {
@@ -75,6 +76,7 @@
       document.getElementById('blog-list').style.display = 'none';
       document.getElementById('blog-title').style.display = 'none';
       document.getElementById('back-button').style.display = 'inline-block';
+      document.getElementById('main-header').style.display = 'none';
     })
     .catch(err => {
       document.getElementById('post-content').innerHTML = '<p>Could not load that post.</p>';
@@ -87,7 +89,9 @@ function showBlogList() {
   document.getElementById('blog-list').style.display = 'block';
   document.getElementById('blog-title').style.display = 'block';
   document.getElementById('back-button').style.display = 'none';
+  document.getElementById('main-header').style.display = 'block';
 }
+
   </script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 

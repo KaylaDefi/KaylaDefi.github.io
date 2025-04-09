@@ -312,4 +312,69 @@ form button:hover {
   #back-button:hover {
     background-color: #E67343;
   }
+
+  /* Make content responsive */
+#post-content {
+    padding: 1rem;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  #post-content h1, 
+  #post-content h2, 
+  #post-content h3 {
+    margin-top: 1.5rem;
+    font-weight: bold;
+  }
+  
+  #post-content ul, 
+  #post-content ol {
+    padding-left: 1.2rem;
+  }
+  
+  #post-content img,
+  #post-content iframe,
+  #post-content video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1rem 0;
+  }
+  
+  #post-content pre, 
+  #post-content code {
+    overflow-x: auto;
+    display: block;
+    background: #f5f5f5;
+    padding: 0.75rem;
+    border-radius: 5px;
+    font-family: monospace;
+    font-size: 0.95rem;
+    line-height: 1.4;
+  }
+  
+  @media (max-width: 768px) {
+    #post-content {
+      font-size: 1rem;
+      padding: 1rem 0.75rem;
+    }
+  
+    #main-header h1 {
+      font-size: 1.75rem;
+      text-align: center;
+    }
+  
+    #blog-list li {
+      font-size: 1rem;
+      margin-bottom: 0.75rem;
+    }
+  
+    #back-button {
+      font-size: 1rem;
+    }
+  }
+  
   
