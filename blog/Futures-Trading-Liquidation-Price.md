@@ -1,6 +1,6 @@
-# **Futures Trading Simulator**
+## **Futures Trading Simulator**
 
-📅 *Posted on April 9, 2025*
+*Posted on April 9, 2025*
 
 Breakdown:
 
@@ -65,8 +65,3 @@ If you’re interested in the theoretical side of security—and how it connects
 
 *Thanks for reading (and watching!). If you have questions, thoughts, or feedback—feel free to reach out.*
 
-# **References**
-
-Aumasson, J.-P. (2021). The crypto dictionary: 500 tasty tidbits for the curious cryptophile. No Starch Press.
-
-Canetti, R. (2001). Universally composable security: A new paradigm for cryptographic protocols (IACR Cryptology ePrint Archive No. 2000/067). International Association for Cryptologic Research. https://eprint.iacr.org/2000/067
