@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+  }
+
 html, body {
     background-color: rgb(2, 88, 104);
     background-image: url(images/IMG_5518.jpg);
@@ -11,17 +15,20 @@ html, body {
     line-height: 1.6em;
     margin: 0;
     height: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 .container {
-    width:80%;
+    width:100% !important;
+    max-width: 100% !important;
     margin:auto;
     overflow:auto;
     display: grid; 
     grid-template-columns: auto auto auto; 
     gap: 33px;
     align-items: start;
-    padding: 33px;
+    padding: 0 1rem;
 }
 
 .block {
@@ -313,11 +320,12 @@ form button:hover {
     background-color: #E67343;
   }
 
-  /* Make content responsive */
 #post-content {
+    width: 100%;
     font-family: 'Lora', serif;
-    padding: 1rem;
-    max-width: 100%;
+    padding: 1rem 1.25rem;
+    max-width: 800px;
+    margin: 0 auto;
     overflow-wrap: break-word;
     word-break: break-word;
     font-size: 1rem;
@@ -357,11 +365,17 @@ form button:hover {
     font-size: 0.95rem;
     line-height: 1.4;
   }
+
+  .blog-page .container {
+    display: block;
+    padding: 0 1rem;
+    max-width: 100%;
+  }
   
   @media (max-width: 768px) {
-    #post-content h1 {
-      font-size: 1.5rem;
-      text-align: left;
+    #post-content {
+      padding: 1rem;
+      font-size: 1rem;
     }
   
     #main-header h1 {
