@@ -137,7 +137,7 @@ html, body {
     text-align: center;
     padding:20px;
     width:100%;
-    margin-top:auto;
+    margin-top: auto;
 }
 
 @media(max-width:600px){
@@ -282,39 +282,49 @@ form button:hover {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-}
-
-.blog-page #main {
+  }
+  
+  .blog-page .container {
+    width: 100%;
+    max-width: 100%;
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .blog-page #main {
     flex-grow: 1;
-    padding: 40px 60px;
-    box-sizing: border-box;
+    padding: 2rem 1rem;
     background-color: #FAFAFA;
     font-family: 'Lora', serif;
-    font-size: 18px;
-    max-width: 1200px; 
-    margin: 100px auto 40px auto;  
+    font-size: 1.1rem;
+    max-width: 800px;
+    width: 100%;
+    margin: 2rem 0;
     position: relative;
     border-radius: 8px;
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
-}
-
-#back-button {
+  }
+  
+  #back-button {
     background-color: #FF7F50;
     color: #fff;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
     font-family: 'Handjet', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     cursor: pointer;
+    margin-bottom: 1rem;
   }
   
   #back-button:hover {
     background-color: #E67343;
   }
-
+  
   /* Make content responsive */
-#post-content {
+  #post-content {
     font-family: 'Lora', serif;
     padding: 1rem;
     max-width: 100%;
@@ -324,15 +334,15 @@ form button:hover {
     line-height: 1.6;
   }
   
-  #post-content h1, 
-  #post-content h2, 
+  #post-content h1,
+  #post-content h2,
   #post-content h3 {
     word-break: normal;
     overflow-wrap: break-word;
     line-height: 1.3;
   }
   
-  #post-content ul, 
+  #post-content ul,
   #post-content ol {
     padding-left: 1.2rem;
   }
@@ -346,7 +356,7 @@ form button:hover {
     margin: 1rem 0;
   }
   
-  #post-content pre, 
+  #post-content pre,
   #post-content code {
     overflow-x: auto;
     display: block;
@@ -377,6 +387,12 @@ form button:hover {
     #back-button {
       font-size: 1rem;
     }
+  
+    .blog-page #main {
+      margin: 1rem auto;
+      padding: 1rem;
+    }
   }
+  
   
   
