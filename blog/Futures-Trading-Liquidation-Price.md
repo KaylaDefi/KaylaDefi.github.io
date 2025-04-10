@@ -37,7 +37,7 @@ Reactivity: When user inputs change, React re-calculates and updates UI
 
 After spending time living vicariously through friends trading perpetual futures contracts, demo trading, and researching these markets, I wanted to make videos that demystify the mechanics and remove some of the hype. It’s easy to get caught up in charts and leverage ratios, but understanding how these tools work is essential to managing risk and making informed decisions.
 
-This led me down a rabbit hole—thinking about not just risk in terms of market volatility, but risk in how we design systems, platforms, and protocols for users.
+This led me down a rabbit hole—thinking about not just risk in terms of market volatility, but risk in how we design systems, platforms, and protocols for users. Most people who read my last post weren't sure what MPC stands for. MPC stands for multi-party computation and is a class of cryptographic techniques for computing a function's output without knowing the inputs' original values. This is currently a rich field of research. One major real world application is use in cryptocurrency wallets. As a fan of the sci-fi book *Snow Crash* by Neil Stephenson, I often think about "rat things" and how they are programmed, but that is a different topic for a different day. For now, some research notes.
 
 ---
 
@@ -65,3 +65,8 @@ If you’re interested in the theoretical side of security—and how it connects
 
 *Thanks for reading (and watching!). If you have questions, thoughts, or feedback—feel free to reach out.*
 
+# **References**
+
+Aumasson, J.-P. (2021). The crypto dictionary: 500 tasty tidbits for the curious cryptophile. No Starch Press.
+
+Canetti, R. (2001). Universally composable security: A new paradigm for cryptographic protocols (IACR Cryptology ePrint Archive No. 2000/067). International Association for Cryptologic Research. https://eprint.iacr.org/2000/067
