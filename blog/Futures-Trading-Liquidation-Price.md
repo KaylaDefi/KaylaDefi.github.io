@@ -53,7 +53,7 @@ Here are a few core ideas that stood out to me:
 
 - **Ideal vs. Real**: A protocol π UC-realizes a function *f* if no environment can distinguish between π (run with a real-world adversary) and an ideal process (with a trusted party and a simulator). This is a much stronger guarantee than traditional definitions.
 
-- **Universal Composition**: The UC theorem says if protocol π securely realizes an ideal functionality *f*, then any system that uses *f8 as a subroutine can safely replace it with π—even in messy, concurrent, adversarial settings. 
+- **Universal Composition**: The UC theorem says if protocol π securely realizes an ideal functionality *f*, then any system that uses *f* as a subroutine can safely replace it with π—even in messy, concurrent, adversarial settings. 
 
 - **Reactive Functionalities & Adaptive Inputs**: UC handles protocols where inputs and outputs evolve over time—key for trading platforms or smart contracts where one action influences the next.
 
