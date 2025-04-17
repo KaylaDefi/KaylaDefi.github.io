@@ -31,10 +31,10 @@ From hand-carried ciphers to AI-secured networks and quantum-resistant encryptio
 
 ---
 
-Military.com. (n.d.). The history of Morse code: From invention to modern use. https://www.military.com/history/morse-code
+Military.com. (n.d.). *The history of Morse code: From invention to modern use.* https://www.military.com/history/morse-code
 
-Singh, S. (1999). The Code Book: The Science of Secrecy from Ancient Egypt to Quantum Cryptography. Anchor Books.
+Singh, S. (1999). *The Code Book: The Science of Secrecy from Ancient Egypt to Quantum Cryptography.* Anchor Books.
 
-The National Museum of Computing. (n.d.). The Enigma Machine. https://www.tnmoc.org/bh-2-the-enigma-machine
+The National Museum of Computing. (n.d.). *The Enigma Machine.* https://www.tnmoc.org/bh-2-the-enigma-machine
 
-The National Museum of Computing. (n.d.). The Polish connection. https://www.tnmoc.org/bh-3-the-polish-connection
+The National Museum of Computing. (n.d.). *The Polish connection.* https://www.tnmoc.org/bh-3-the-polish-connection
