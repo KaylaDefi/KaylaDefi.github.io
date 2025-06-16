@@ -8,7 +8,7 @@ June 16, 2025
 
 Technological innovations have shaped society by transforming economies, altering labor systems, and affecting both human and environmental rights. This paper examines the cotton gin, cryptocurrencies and blockchain, and carbon capture technology. It concludes by predicting how Palantir Technologies may influence privacy and security in the future. 
 
-## The Cotton Gin and Slavery
+## The Cotton Gin
 
 Invented by Eli Whitney in 1793, the cotton gin simplified cotton processing. However, it significantly increased demand for enslaved labor in the American South. Cotton became highly profitable, fueling plantation expansion and delaying abolition (Baptist, 2014). 
 
