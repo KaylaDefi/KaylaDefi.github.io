@@ -1,6 +1,6 @@
-##Java Python, and C++ Comparison
+# Java Python, and C++ Comparison
 
-*Posted on May 1, 2025
+## by Kayla Sherwood
 
 Java, Python, and C++ are three of the most important programming languages to learn because they each serve different purposes. Java is often used for Android apps and large business systems. It’s known for being stable and portable across devices. Python is great for beginners and used in fields like web development and data science. Its simple, readable syntax helps people write code quickly. C++ is a lower-level language used when performance is key, like in games or operating systems, because it gives the programmer more control over memory and hardware.
 

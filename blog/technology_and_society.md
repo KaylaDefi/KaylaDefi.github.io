@@ -1,6 +1,6 @@
 # Technology and Society
 
-**by Kayla Sherwood**  
+## by Kayla Sherwood
  
 June 16, 2025  
 

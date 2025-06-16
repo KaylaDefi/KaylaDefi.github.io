@@ -1,7 +1,7 @@
 ## **Futures Trading Simulator**
 
-*Posted on April 9, 2025*
-
+# by Kayla Sherwood
+ 
 Breakdown:
 
 Frontend: Next.js + React + Tailwind UI
