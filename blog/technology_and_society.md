@@ -1,9 +1,7 @@
 # Technology and Society
 
-**Kayla Sherwood**  
-CSU Global  
-ITS325-1  
-Mortoza Abdullah  
+**by Kayla Sherwood**  
+ 
 June 16, 2025  
 
 ---
