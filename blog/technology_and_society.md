@@ -22,13 +22,21 @@ Blockchain and cryptocurrencies emerged after the 2008 financial crisis, offerin
 
 Carbon capture and storage (CCS) removes CO₂ from the atmosphere or industrial sites, helping reduce emissions (IEA, 2020). It supports a transition to cleaner energy. Despite environmental benefits, CCS may encourage ongoing fossil fuel use. Projects are often built in disadvantaged areas, raising concerns about environmental justice (Herzog, 2011). 
 
-## Future Technology: Palantir and Surveillance
+## Future Technology: Palantir and Data Infrastructure
 
-Palantir Technologies develops big data tools that are used by law enforcement and government agencies. Its systems can monitor and analyze vast personal data. Over time, this may increase national security but also reduce privacy and autonomy. Digital identities linked to surveillance could affect employment and civil liberties. Without regulation, such tools may undermine democratic norms (UCertify, 2023). 
+Palantir Technologies is a software company that provides platforms for data integration, analytics, and operational decision-making. Its tools are used by public, private, and non-profit organizations to manage complex data across siloed systems.
+
+Palantir explicitly states that it is not a data company, it does not collect, sell, or mine personal data. Instead, its customers use Palantir software to work with their own internal data under tightly controlled access policies. Each organization controls its own data environment, and Palantir’s systems are designed with embedded privacy, security, and audit features (Palantir, 2025).
+
+As AI adoption grows, platforms like Palantir’s are becoming critical digital infrastructure. While concerns have been raised about the role of data in society, Palantir positions itself as a partner in responsible AI and privacy-protective software development. The company has long maintained a civil liberties engineering team and a council of advisors on privacy and ethical use of technology.
+
+Predicting the future societal effects of such platforms involves understanding not just the capabilities of the software, but also how it is implemented by the organizations that use it.
+
 
 ## Conclusion
 
-The cotton gin, blockchain, and carbon capture each transformed society, but also introduced complex challenges on both human rights and environmental levels. As big data organizations like Palantir grow their influence, we must consider how emerging technologies align with human and environmental rights to ensure ethical implementation. 
+The cotton gin, blockchain, and carbon capture each transformed society in profound ways, while also introducing challenges related to human and environmental rights. As data integration platforms like those developed by Palantir become essential infrastructure across sectors, it is increasingly important to consider how emerging technologies are implemented, and whether their use aligns with principles of transparency, privacy, and equity. Responsible deployment, guided by ethics and oversight, will determine whether these innovations truly serve the public good.
+
 
 ---
 
