@@ -1,10 +1,10 @@
-## Weather and Letter Logic – Pseudocode and Flowchart
+# Weather and Letter Logic – Pseudocode and Flowchart
 
-# by Kayla Sherwood
+## by Kayla Sherwood
 
 Posted June 22, 2025
 
-# Explanation
+## Explanation
 
 This pseudocode and flowchart illustrate the process of asking a user to enter a letter. Based on the input, we provide different weather outputs:
 
@@ -15,7 +15,7 @@ This pseudocode and flowchart illustrate the process of asking a user to enter a
 
 ---
 
-# Pseudocode
+## Pseudocode
 
 **START**  
 Prompt user to enter a letter  
@@ -35,12 +35,12 @@ ELSE
 
 ---
 
-# Flowchart
+## Flowchart
 
 ![Flowchart of weather letter logic](images/flowchart.png)
 
 ---
 
-# Summary
+## Summary
 
 This exercise demonstrates how to use conditional logic in both pseudocode and flowchart form to guide users through a simple decision-making process. This is a foundational concept in algorithm design and software development.
