@@ -2,7 +2,7 @@
 
 ## by Kayla Sherwood
 
-Posted June 22, 2025
+---
 
 ## Explanation
 

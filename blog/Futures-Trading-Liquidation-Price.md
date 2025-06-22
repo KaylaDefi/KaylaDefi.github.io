@@ -1,6 +1,8 @@
 ## **Futures Trading Simulator**
 
 # by Kayla Sherwood
+
+---
  
 Breakdown:
 
