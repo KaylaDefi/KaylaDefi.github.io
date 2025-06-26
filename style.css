@@ -5,7 +5,7 @@ html, body {
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    color:#3A3D53;
+    color:#1a134f;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 16px;
     line-height: 1.6em;
@@ -93,6 +93,23 @@ html, body {
     text-decoration: underline dotted; 
 }
 
+.button-style {
+  background-color: #FF7F50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-family: 'Handjet', sans-serif;
+  font-size: 23px;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+.button-style:hover {
+  background-color: #E67343;
+}
+
+
 #image {
     width: 100%;
     height: auto;
@@ -106,7 +123,7 @@ html, body {
 #main { 
     padding:20px 30px;
     box-sizing: border-box;
-    background-color: #FAFAFA;
+    background-color: #f6d0d0;
     font-family: 'Lora', serif;
     font-size: 18px;
     max-width: 900px; 
@@ -401,6 +418,46 @@ form button:hover {
       margin: 1rem auto;
       padding: 1rem;
     }
+  }
+  
+  #tx-table {
+    width: 90%;
+    max-width: 1000px;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    background-color: #004d4d;
+    color: white;
+    text-align: center;
+  }
+
+  .table-container {
+    display: flex;
+    background-color: transparent;;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+  }
+  
+  #tx-table th {
+    background-color: #ff7f50; /* coral header */
+    color: white;
+    padding: 10px;
+    border: 1px solid #333;
+    font-weight: bold;
+  }
+  
+  #tx-table td {
+    padding: 10px;
+    border: 1px solid #333;
+  }
+  
+  #tx-table tbody tr:nth-child(even) {
+    background-color: #006666;
+  }
+  
+  #tx-table tbody tr:hover {
+    background-color: #008080;
   }
   
   
