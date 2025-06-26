@@ -113,30 +113,28 @@
       }
 
       let timeCell = `<td>—</td>`;
-  if (tx.timestamp) {
-    try {
-      const parsedTime = new Date(tx.timestamp);
-      if (!isNaN(parsedTime)) {
-        const time = parsedTime.toLocaleString("en-US", {
-          timeZone: "America/Denver",
-          dateStyle: "short",
-          timeStyle: "short",
-       });
-        timeCell = `<td>${time}</td>`;
+      if (tx.timestamp) {
+        try {
+          const time = new Date(tx.timestamp).toLocaleString("en-US", {
+            timeZone: "America/Denver",
+            dateStyle: "short",
+            timeStyle: "short",
+          });
+          timeCell = `<td>${time}</td>`;
+        } catch (e) {
+          console.error("❌ Time formatting failed:", tx.timestamp);
+        }
       }
-      } catch (e) {
-         console.error("❌ Time formatting failed:", tx.timestamp, e);
-      }
-    }
 
       row.innerHTML = fromCell + toCell + valueCell + timeCell;
       table.appendChild(row);
     });
+  }
 
     document.querySelector('#refresh-button').addEventListener('click', fetchTransactions);
 
     document.addEventListener('DOMContentLoaded', fetchTransactions);
-    }
+
   </script>
   <footer id="main-footer">
 	<p>Copyright &copy; 2025 KaylaDefi</p>
