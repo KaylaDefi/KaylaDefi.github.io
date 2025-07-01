@@ -75,10 +75,10 @@ html, body {
     background-repeat: no-repeat; 
     object-fit: cover;
     overflow: hidden; 
-    position: absolute;
-    top: 200px; 
+    position: relative;
+    top: 100px; 
     left: 36px; 
-    z-index: 1;
+    z-index: 0;
 }
 
 .my-link {
@@ -118,6 +118,11 @@ html, body {
 #main-header {
     background-color:coral;
     color:#fff;
+}
+
+#main-header h1 {
+  font-size: clamp(1.5rem, 4vw, 3rem);
+  text-align: center;
 }
 
 #main { 
@@ -459,6 +464,26 @@ form button:hover {
   #tx-table tbody tr:hover {
     background-color: #008080;
   }
+
+  @media (max-width: 768px) {
+    #tx-table {
+      font-size: 12px;
+      width: 100%;
+      display: block;
+      overflow-x: auto;
+      white-space: nowrap;
+    }
+  
+    #tx-table th,
+    #tx-table td {
+      padding: 8px;
+    }
+  
+    .table-container {
+      padding: 0.5rem;
+    }
+  }
+  
   
   
   
