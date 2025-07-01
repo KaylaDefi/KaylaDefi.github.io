@@ -42,6 +42,7 @@
   <main id="main">
   <div class="table-container">
     <button id="refresh-button" class="button-style">🔁 Refresh Data</button>
+    <p id="last-updated" style="color:#333; font-size:14px; text-align:center; margin-top:10px;"></p>
     <table id="tx-table">
         <thead>
             <tr>
@@ -64,51 +65,51 @@
     'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im9uaGd4ZHJneW5tb3VmcG9uZXV5Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTA4ODQ5NjQsImV4cCI6MjA2NjQ2MDk2NH0.OB64qtsRqFuGQubUxbQYABuRcqv0-wZ6f-wUdmI5AIs'
     );
   </script>
-  <script>
+
+   <script>
     console.log("Supabase Client Initialized");
 
     async function fetchTransactions() {
       const table = document.querySelector('#tx-table tbody');
-      table.innerHTML = '<tr><td colspan="4">Loading...</td></tr>';
+      const lastUpdated = document.getElementById('last-updated');
+      table.innerHTML = '<tr><td colspan="2">Loading...</td></tr>';
 
       const { data, error } = await supabase
         .from('degen_transfers')
-        .select('from_addr, to_addr, value, timestamp')
+        .select('from_addr, to_addr')
         .order('timestamp', { ascending: false })
         .limit(77);
 
-      console.log("📦 Supabase Data:", data);
-      console.log("⚠️ Supabase Error:", error);
-
-      if (error) {
-        table.innerHTML = `<tr><td colspan="4">Error loading data</td></tr>`;
-        return;
-      }
-
-      if (!data || data.length === 0) {
-        table.innerHTML = `<tr><td colspan="4">No data found</td></tr>`;
+      if (error || !data || data.length === 0) {
+        table.innerHTML = `<tr><td colspan="2">No data available</td></tr>`;
+        console.error("❌ Supabase Error:", error);
         return;
       }
 
       table.innerHTML = '';
-data.forEach(tx => {
-  const row = document.createElement('tr');
+      data.forEach(tx => {
+        const row = document.createElement('tr');
+        const fromCell = `<td>${tx.from_addr || '—'}</td>`;
+        const toCell = `<td>${tx.to_addr || '—'}</td>`;
+        row.innerHTML = fromCell + toCell;
+        table.appendChild(row);
+      });
 
-  const fromCell = `<td>${tx.from_addr || '—'}</td>`;
-  const toCell = `<td>${tx.to_addr || '—'}</td>`;
+      if (lastUpdated) {
+        lastUpdated.textContent = `Last updated: ${new Date().toLocaleTimeString()}`;
+      }
 
-  row.innerHTML = fromCell + toCell;
-  table.appendChild(row);
-});
-
-        console.log("✅ Transactions loaded successfully");
-        }
+      console.log("✅ Transactions loaded");
+    }
 
     document.querySelector('#refresh-button').addEventListener('click', fetchTransactions);
 
-    document.addEventListener('DOMContentLoaded', fetchTransactions);
-
+    document.addEventListener('DOMContentLoaded', () => {
+      fetchTransactions();
+      setInterval(fetchTransactions, 15000); // every 15 seconds
+    });
   </script>
+
   <footer id="main-footer">
 	<p>Copyright &copy; 2025 KaylaDefi</p>
   </footer>
